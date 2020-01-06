@@ -1,0 +1,20 @@
+TL P2
+TR P9
+BL P1
+BR P10
+
+LM4040 576-1047-2-ND
+
+100 uF 493-3953-2-ND
+
+330 uF 493-3959-2-ND
+
+BLDC motor Phases: A98334-ND
+
+24 Power Supply: 277-1667-ND
+
+probe/ground: A98333-ND
+
+Steppers: A98335-ND
+
+heat sink: HS407-ND

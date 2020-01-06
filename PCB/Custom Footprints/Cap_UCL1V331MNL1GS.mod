@@ -1,0 +1,34 @@
+PCBNEW-LibModule-V1  11/7/2014 2:48:56 PM
+# encoding utf-8
+Units mm
+$INDEX
+Cap_Nichicon_UCL1V331MNL1GS
+$EndINDEX
+$MODULE Cap_Nichicon_UCL1V331MNL1GS
+Po 0 0 0 15 545D2FCB 00000000 ~~
+Li Cap_Nichicon_UCL1V331MNL1GS
+Sc 0
+AR 
+Op 0 0 0
+T0 0.025 -8.725 1 1 0 0.15 N V 21 N "Cap_Bulk"
+T1 0.025 8.95 1 1 0 0.15 N V 21 N "C**"
+DS -5.25 5.25 5.25 5.25 0.15 21
+DS 5.25 5.25 5.25 -5.25 0.15 21
+DS 5.25 -5.25 -5.25 -5.25 0.15 21
+DS -5.25 -5.25 -5.25 5.25 0.15 21
+$PAD
+Sh "-" R 2.5 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 4
+$EndPAD
+$PAD
+Sh "+" R 2.5 4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -4
+$EndPAD
+$EndMODULE Cap_Nichicon_UCL1V331MNL1GS
+$EndLIBRARY
