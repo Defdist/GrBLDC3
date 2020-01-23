@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "GrBLDCv3 - CNC Stepper & BLDC Arduino Shield"
 Date ""
-Rev "A"
+Rev "PCB:B BOM:2"
 Comp "Linsight, Inc."
 Comment1 ""
 Comment2 ""
@@ -47,39 +47,39 @@ F 3 "" H 11350 3150 60  0000 C CNN
 	1    11350 3150
 	-1   0    0    -1  
 $EndComp
-Text Label 11750 2900 0    40   ~ 0
+Text Label 11750 2900 0    40   ~ 6
 A0_STEP_X1_EN
-Text Label 11750 3300 0    40   ~ 0
+Text Label 11750 3300 0    40   ~ 6
 A4_SPINDLE_OVERLOAD
-Text Label 11750 3400 0    40   ~ 0
+Text Label 11750 3400 0    40   ~ 6
 A5_PROBE
-Text Label 7700 700  0    40   ~ 0
+Text Label 7700 700  0    40   ~ 6
 REF
-Text Label 7700 800  0    40   ~ 0
+Text Label 7700 800  0    40   ~ 6
 GND
-Text Label 7700 1300 0    40   ~ 0
+Text Label 7700 1300 0    40   ~ 6
 D9_LIMIT_X2
-Text Label 7700 1200 0    40   ~ 0
+Text Label 7700 1200 0    40   ~ 6
 D10_LIMIT_Y
-Text Label 7700 1100 0    40   ~ 0
+Text Label 7700 1100 0    40   ~ 6
 D11_SPIN_PWM
-Text Label 7700 1000 0    40   ~ 0
+Text Label 7700 1000 0    40   ~ 6
 D12_LIMIT_Z
-Text Label 7700 900  0    40   ~ 0
+Text Label 7700 900  0    40   ~ 6
 D13_SPIN_DIR
-Text Label 7700 1400 0    40   ~ 0
+Text Label 7700 1400 0    40   ~ 6
 D8_STEP_EN_n
-Text Label 7700 1700 0    40   ~ 0
+Text Label 7700 1700 0    40   ~ 6
 D7_DIR_Z
-Text Label 7700 1800 0    40   ~ 0
+Text Label 7700 1800 0    40   ~ 6
 D6_DIR_Y
-Text Label 7700 1900 0    40   ~ 0
+Text Label 7700 1900 0    40   ~ 6
 D5_DIR_X
-Text Label 7700 2000 0    40   ~ 0
+Text Label 7700 2000 0    40   ~ 6
 D4_STEP_Z
-Text Label 7700 2100 0    40   ~ 0
+Text Label 7700 2100 0    40   ~ 6
 D3_STEP_Y
-Text Label 7700 2200 0    40   ~ 0
+Text Label 7700 2200 0    40   ~ 6
 D2_STEP_X
 $Comp
 L GrBLDC-rescue:CONN_9 P8
@@ -389,7 +389,7 @@ F 3 "" H 7900 3900 60  0000 C CNN
 	1    7900 3900
 	-1   0    0    -1  
 $EndComp
-Text Notes 10300 4750 3    63   ~ 0
+Text Notes 10300 4750 3    63   ~ 6
 VCC\nZLIM\nGND\nVCC\nYLIM\nGND\nVCC\nX2LIM\nGND
 $Comp
 L GrBLDC-rescue:R-RESCUE-GrBLDC R35
@@ -435,11 +435,11 @@ F 3 "" H 6950 850 60  0000 C CNN
 	1    6950 850 
 	1    0    0    -1  
 $EndComp
-Text Notes 8600 2450 0    70   ~ 0
+Text Notes 8600 2450 0    70   ~ 6
 ARDUINO\nBOTTOM\nRIGHT
-Text Notes 8600 850  0    70   ~ 0
+Text Notes 8600 850  0    70   ~ 6
 ARDUINO\nTOP RIGHT
-Text Notes 11250 3800 0    70   ~ 0
+Text Notes 11250 3800 0    70   ~ 6
 ARDUINO\nBOTTOM\nLEFT
 $Comp
 L GrBLDC-rescue:C-RESCUE-GrBLDC C54
@@ -452,7 +452,7 @@ F 3 "~" H 20800 5700 60  0000 C CNN
 	1    20800 5700
 	1    0    0    -1  
 $EndComp
-Text Notes 20600 1500 0    70   ~ 0
+Text Notes 20600 1500 0    70   ~ 6
 FAN
 $Comp
 L GrBLDC-rescue:C-RESCUE-GrBLDC C43
@@ -641,13 +641,13 @@ F 3 "" H 20300 1400 60  0000 C CNN
 	1    20300 1400
 	1    0    0    -1  
 $EndComp
-Text Notes 22200 5350 0    70   ~ 0
+Text Notes 22200 5350 0    70   ~ 6
 PH_A\nPH_B\nPH_C
-Text Notes 20850 1400 0    70   ~ 0
+Text Notes 20850 1400 0    70   ~ 6
 24V\n\nGND
-Text Notes 21950 4950 0    70   ~ 0
+Text Notes 21950 4950 0    70   ~ 6
 BLDC\nPHASE
-Text Notes 10350 7500 0    70   ~ 0
+Text Notes 10350 7500 0    70   ~ 6
 BLDC\nHALL
 $Comp
 L GrBLDC-rescue:CP1-RESCUE-GrBLDC C63
@@ -671,37 +671,37 @@ F 3 "~" H 21350 10900 60  0000 C CNN
 	1    21350 10900
 	1    0    0    -1  
 $EndComp
-Text Label 14400 4050 2    40   ~ 0
+Text Label 14400 4050 2    40   ~ 6
 PROBE_NOISY
-Text Label 12850 3400 2    40   ~ 0
+Text Label 12850 3400 2    40   ~ 6
 PI_PRB
-Text Label 8550 4050 0    40   ~ 0
+Text Label 8550 4050 0    40   ~ 6
 PI_ZLIM
-Text Label 8550 3400 0    40   ~ 0
+Text Label 8550 3400 0    40   ~ 6
 PI_YLIM
-Text Label 8550 2750 0    40   ~ 0
+Text Label 8550 2750 0    40   ~ 6
 PI_X2LIM
-Text Label 20700 5100 0    40   ~ 0
+Text Label 20700 5100 0    40   ~ 6
 PHASE_A
-Text Label 11600 7650 0    40   ~ 0
+Text Label 11600 7650 0    40   ~ 6
 HALL_A
-Text Label 11400 7750 0    40   ~ 0
+Text Label 11400 7750 0    40   ~ 6
 HALL_B
-Text Label 19400 4750 0    40   ~ 0
+Text Label 19400 4750 0    40   ~ 6
 GHA
-Text Label 19400 4850 0    40   ~ 0
+Text Label 19400 4850 0    40   ~ 6
 CA
-Text Label 19400 5500 0    39   ~ 0
+Text Label 19400 5500 0    39   ~ 6
 GLA
-Text Label 20150 5500 0    40   ~ 0
+Text Label 20150 5500 0    40   ~ 6
 GLAZ
-Text Label 20150 4750 0    40   ~ 0
+Text Label 20150 4750 0    40   ~ 6
 GHAZ
-Text Label 9300 2750 0    40   ~ 0
+Text Label 9300 2750 0    40   ~ 6
 X2LIM
-Text Label 9300 3400 0    40   ~ 0
+Text Label 9300 3400 0    40   ~ 6
 YLIM
-Text Label 9300 4050 0    40   ~ 0
+Text Label 9300 4050 0    40   ~ 6
 ZLIM
 $Comp
 L GrBLDC-rescue:R-RESCUE-GrBLDC R29
@@ -802,9 +802,9 @@ F 3 "" H 8150 7400 60  0000 C CNN
 	1    8150 7400
 	1    0    0    -1  
 $EndComp
-Text Label 7700 2300 0    40   ~ 0
+Text Label 7700 2300 0    40   ~ 6
 TX_ARD
-Text Label 7700 2400 0    40   ~ 0
+Text Label 7700 2400 0    40   ~ 6
 RX_ARD
 $Comp
 L GrBLDC-rescue:GND-RESCUE-GrBLDC #PWR027
@@ -1789,7 +1789,7 @@ F 3 "" H 5000 11200 60  0000 C CNN
 	1    5000 11200
 	1    0    0    -1  
 $EndComp
-Text Notes 19150 1400 0    60   ~ 0
+Text Notes 19150 1400 0    60   ~ 6
 24Vin\nPGND\nCHASSIS GND
 $Comp
 L GrBLDC-rescue:CONN_01X03 P12
@@ -1802,13 +1802,13 @@ F 3 "" H 22050 5200 60  0000 C CNN
 	1    22050 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 3900 2450 0    118  ~ 0
+Text Notes 3900 2450 0    118  ~ 6
 X1-RIGHT
-Text Notes 4000 4650 0    118  ~ 0
+Text Notes 4000 4650 0    118  ~ 6
 X2-LEFT
-Text Notes 4300 6850 0    118  ~ 0
+Text Notes 4300 6850 0    118  ~ 6
 Y
-Text Notes 4300 9050 0    118  ~ 0
+Text Notes 4300 9050 0    118  ~ 6
 Z
 NoConn ~ 8100 700 
 NoConn ~ 8100 2300
@@ -1824,103 +1824,103 @@ F 3 "" H 5900 3100 60  0000 C CNN
 	1    5900 3100
 	1    0    0    -1  
 $EndComp
-Text Label 4900 3200 0    40   ~ 0
+Text Label 4900 3200 0    40   ~ 6
 X1_A1
-Text Label 4900 3300 0    40   ~ 0
+Text Label 4900 3300 0    40   ~ 6
 X1_A2
-Text Label 4900 3400 0    40   ~ 0
+Text Label 4900 3400 0    40   ~ 6
 X1_B1
-Text Label 4900 3500 0    40   ~ 0
+Text Label 4900 3500 0    40   ~ 6
 X1_B2
-Text Label 5000 9800 0    40   ~ 0
+Text Label 5000 9800 0    40   ~ 6
 Z_A1
-Text Label 5000 9900 0    40   ~ 0
+Text Label 5000 9900 0    40   ~ 6
 Z_A2
-Text Label 5000 10000 0    40   ~ 0
+Text Label 5000 10000 0    40   ~ 6
 Z_B1
-Text Label 5000 10100 0    40   ~ 0
+Text Label 5000 10100 0    40   ~ 6
 Z_B2
-Text Label 4950 5400 0    40   ~ 0
+Text Label 4950 5400 0    40   ~ 6
 X2_A1
-Text Label 4950 5500 0    40   ~ 0
+Text Label 4950 5500 0    40   ~ 6
 X2_A2
-Text Label 4950 5600 0    40   ~ 0
+Text Label 4950 5600 0    40   ~ 6
 X2_B1
-Text Label 4950 5700 0    40   ~ 0
+Text Label 4950 5700 0    40   ~ 6
 X2_B2
-Text Label 5000 7600 0    40   ~ 0
+Text Label 5000 7600 0    40   ~ 6
 Y_A1
-Text Label 5000 7700 0    40   ~ 0
+Text Label 5000 7700 0    40   ~ 6
 Y_A2
-Text Label 5000 7800 0    40   ~ 0
+Text Label 5000 7800 0    40   ~ 6
 Y_B1
-Text Label 5000 7900 0    40   ~ 0
+Text Label 5000 7900 0    40   ~ 6
 Y_B2
-Text Label 4900 2800 0    40   ~ 0
+Text Label 4900 2800 0    40   ~ 6
 X1_VCP
-Text Label 4900 2900 0    40   ~ 0
+Text Label 4900 2900 0    40   ~ 6
 X1_CP1
-Text Label 4900 3000 0    40   ~ 0
+Text Label 4900 3000 0    40   ~ 6
 X1_CP2
-Text Label 6950 9800 0    40   ~ 0
+Text Label 6950 9800 0    40   ~ 6
 VREF_Steppers
-Text Label 4900 3800 0    40   ~ 0
+Text Label 4900 3800 0    40   ~ 6
 X1_ISENA
-Text Label 4900 3900 0    40   ~ 0
+Text Label 4900 3900 0    40   ~ 6
 X1_ISENB
-Text Label 3400 3800 0    40   ~ 0
+Text Label 3400 3800 0    40   ~ 6
 X1_RCB
-Text Label 2950 3700 0    40   ~ 0
+Text Label 2950 3700 0    40   ~ 6
 X1_RCA
-Text Label 4900 4100 0    40   ~ 0
+Text Label 4900 4100 0    40   ~ 6
 X1_VGD
-Text Label 2950 5900 0    40   ~ 0
+Text Label 2950 5900 0    40   ~ 6
 X2_RCA
-Text Label 3400 6000 0    40   ~ 0
+Text Label 3400 6000 0    40   ~ 6
 X2_RCB
-Text Label 4900 6300 0    40   ~ 0
+Text Label 4900 6300 0    40   ~ 6
 X2_VGD
-Text Label 4900 6100 0    40   ~ 0
+Text Label 4900 6100 0    40   ~ 6
 X2_ISENB
-Text Label 4900 6000 0    40   ~ 0
+Text Label 4900 6000 0    40   ~ 6
 X2_ISENA
-Text Label 4900 5200 0    40   ~ 0
+Text Label 4900 5200 0    40   ~ 6
 X2_CP2
-Text Label 4900 5100 0    40   ~ 0
+Text Label 4900 5100 0    40   ~ 6
 X2_CP1
-Text Label 4900 5000 0    40   ~ 0
+Text Label 4900 5000 0    40   ~ 6
 X2_VCP
-Text Label 2950 8100 0    40   ~ 0
+Text Label 2950 8100 0    40   ~ 6
 Y_RCA
-Text Label 3400 8200 0    40   ~ 0
+Text Label 3400 8200 0    40   ~ 6
 Y_RCB
-Text Label 4900 8500 0    40   ~ 0
+Text Label 4900 8500 0    40   ~ 6
 Y_VGD
-Text Label 4900 8300 0    40   ~ 0
+Text Label 4900 8300 0    40   ~ 6
 Y_ISENB
-Text Label 4900 8200 0    40   ~ 0
+Text Label 4900 8200 0    40   ~ 6
 Y_ISENA
-Text Label 4900 7400 0    40   ~ 0
+Text Label 4900 7400 0    40   ~ 6
 Y_CP2
-Text Label 4900 7300 0    40   ~ 0
+Text Label 4900 7300 0    40   ~ 6
 Y_CP1
-Text Label 4900 7200 0    40   ~ 0
+Text Label 4900 7200 0    40   ~ 6
 Y_VCP
-Text Label 2950 10300 0    40   ~ 0
+Text Label 2950 10300 0    40   ~ 6
 Z_RCA
-Text Label 3400 10400 0    40   ~ 0
+Text Label 3400 10400 0    40   ~ 6
 Z_RCB
-Text Label 4900 10700 0    40   ~ 0
+Text Label 4900 10700 0    40   ~ 6
 Z_VGD
-Text Label 4900 10500 0    40   ~ 0
+Text Label 4900 10500 0    40   ~ 6
 Z_ISENB
-Text Label 4900 10400 0    40   ~ 0
+Text Label 4900 10400 0    40   ~ 6
 Z_ISENA
-Text Label 4900 9600 0    40   ~ 0
+Text Label 4900 9600 0    40   ~ 6
 Z_CP2
-Text Label 4900 9500 0    40   ~ 0
+Text Label 4900 9500 0    40   ~ 6
 Z_CP1
-Text Label 4900 9400 0    40   ~ 0
+Text Label 4900 9400 0    40   ~ 6
 Z_VCP
 $Comp
 L GrBLDC-rescue:C-RESCUE-GrBLDC C26
@@ -2428,9 +2428,9 @@ F 3 "" H 20700 1250 60  0000 C CNN
 	1    20700 1250
 	1    0    0    -1  
 $EndComp
-Text Notes 10800 7850 0    60   ~ 0
+Text Notes 10800 7850 0    60   ~ 6
 blue\nyellow\ngreen
-Text Notes 22525 5325 0    60   ~ 0
+Text Notes 22525 5325 0    60   ~ 6
 yellow\ngreen\nblue
 $Comp
 L GrBLDC-rescue:C-RESCUE-GrBLDC C77
@@ -2509,11 +2509,11 @@ F 3 "" H 5650 13500 60  0000 C CNN
 	1    5650 13500
 	1    0    0    -1  
 $EndComp
-Text Notes 6150 13500 0    70   ~ 0
+Text Notes 6150 13500 0    70   ~ 6
 VCC\nESTOP\nGND
-Text Label 5500 13350 0    40   ~ 0
+Text Label 5500 13350 0    40   ~ 6
 ESTOP_n
-Text Label 11750 3100 0    40   ~ 0
+Text Label 11750 3100 0    40   ~ 6
 A2_LIMIT_X1
 $Comp
 L GrBLDC-rescue:GND-RESCUE-GrBLDC #PWR0100
@@ -2559,13 +2559,13 @@ F 3 "" H 12650 8550 50  0000 C CNN
 	1    12650 8550
 	1    0    0    -1  
 $EndComp
-Text Label 12700 7950 2    60   ~ 0
+Text Label 12700 7950 2    60   ~ 6
 BLAC_XTAL1
-Text Label 12700 8050 2    60   ~ 0
+Text Label 12700 8050 2    60   ~ 6
 BLAC_XTAL2
-Text Notes 12900 7000 0    60   ~ 0
+Text Notes 12900 7000 0    60   ~ 6
 Comparator inputs
-Text Notes 12900 7600 0    60   ~ 0
+Text Notes 12900 7600 0    60   ~ 6
 PSC inputs
 $Comp
 L Device:C C79
@@ -2578,9 +2578,9 @@ F 3 "" H 15400 6950 50  0000 C CNN
 	1    15400 6950
 	1    0    0    1   
 $EndComp
-Text Label 14900 6750 0    39   ~ 0
+Text Label 14900 6750 0    39   ~ 6
 BLAC_aRef
-Text Notes 12900 8900 0    60   ~ 0
+Text Notes 12900 8900 0    60   ~ 6
 PSC outputs
 $Comp
 L GrBLDC-rescue:GND-RESCUE-GrBLDC #PWR0101
@@ -2681,7 +2681,7 @@ F 3 "" H 20100 5000 50  0001 C CNN
 	1    20100 5000
 	-1   0    0    1   
 $EndComp
-Text Label 19400 5900 0    39   ~ 0
+Text Label 19400 5900 0    39   ~ 6
 LSSA
 $Comp
 L Device:R R76
@@ -2727,9 +2727,9 @@ F 3 "" H 20200 6250 50  0001 C CNN
 	1    20200 6250
 	1    0    0    -1  
 $EndComp
-Text Label 19550 6050 0    39   ~ 0
+Text Label 19550 6050 0    39   ~ 6
 CSAP
-Text Label 19550 6450 0    39   ~ 0
+Text Label 19550 6450 0    39   ~ 6
 CSAM
 $Comp
 L Device:R R73
@@ -2747,7 +2747,7 @@ L Device:R R68
 U 1 1 5B39C470
 P 19800 6300
 F 0 "R68" V 19880 6300 50  0000 C CNN
-F 1 "1k" V 19800 6300 50  0000 C CNN
+F 1 "47" V 19800 6300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 19730 6300 50  0001 C CNN
 F 3 "" H 19800 6300 50  0001 C CNN
 	1    19800 6300
@@ -2764,7 +2764,7 @@ F 3 "" H 19250 6250 60  0000 C CNN
 	1    19250 6250
 	-1   0    0    -1  
 $EndComp
-Text Label 19600 6250 1    39   ~ 0
+Text Label 19600 6250 1    39   ~ 6
 ISET_A
 $Comp
 L GrBLDC-rescue:MOSFET_N Q3
@@ -2810,17 +2810,17 @@ F 3 "~" H 19800 7350 30  0000 C CNN
 	1    19800 7350
 	0    -1   -1   0   
 $EndComp
-Text Label 20700 7700 0    40   ~ 0
+Text Label 20700 7700 0    40   ~ 6
 PHASE_B
-Text Label 19400 7350 0    40   ~ 0
+Text Label 19400 7350 0    40   ~ 6
 GHB
-Text Label 19400 7450 0    40   ~ 0
+Text Label 19400 7450 0    40   ~ 6
 CB
-Text Label 19400 8100 0    39   ~ 0
+Text Label 19400 8100 0    39   ~ 6
 GLB
-Text Label 20150 8100 0    40   ~ 0
+Text Label 20150 8100 0    40   ~ 6
 GLBZ
-Text Label 20150 7350 0    40   ~ 0
+Text Label 20150 7350 0    40   ~ 6
 GHBZ
 $Comp
 L Device:R R57
@@ -2866,7 +2866,7 @@ F 3 "" H 20100 7600 50  0001 C CNN
 	1    20100 7600
 	-1   0    0    1   
 $EndComp
-Text Label 19400 8500 0    39   ~ 0
+Text Label 19400 8500 0    39   ~ 6
 LSSB
 $Comp
 L Device:R R78
@@ -2912,9 +2912,9 @@ F 3 "" H 20200 8850 50  0001 C CNN
 	1    20200 8850
 	1    0    0    -1  
 $EndComp
-Text Label 19550 8650 0    39   ~ 0
+Text Label 19550 8650 0    39   ~ 6
 CSBP
-Text Label 19550 9050 0    39   ~ 0
+Text Label 19550 9050 0    39   ~ 6
 CSBM
 $Comp
 L Device:R R74
@@ -2932,13 +2932,13 @@ L Device:R R70
 U 1 1 5B3B07F1
 P 19800 8900
 F 0 "R70" V 19880 8900 50  0000 C CNN
-F 1 "1k" V 19800 8900 50  0000 C CNN
+F 1 "47" V 19800 8900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 19730 8900 50  0001 C CNN
 F 3 "" H 19800 8900 50  0001 C CNN
 	1    19800 8900
 	0    1    1    0   
 $EndComp
-Text Label 19600 8850 1    39   ~ 0
+Text Label 19600 8850 1    39   ~ 6
 ISET_B
 $Comp
 L power:+24V #PWR0110
@@ -2995,17 +2995,17 @@ F 3 "~" H 19800 9950 30  0000 C CNN
 	1    19800 9950
 	0    -1   -1   0   
 $EndComp
-Text Label 20700 10300 0    40   ~ 0
+Text Label 20700 10300 0    40   ~ 6
 PHASE_C
-Text Label 19400 9950 0    40   ~ 0
+Text Label 19400 9950 0    40   ~ 6
 GHC
-Text Label 19400 10050 0    40   ~ 0
+Text Label 19400 10050 0    40   ~ 6
 CC
-Text Label 19400 10700 0    39   ~ 0
+Text Label 19400 10700 0    39   ~ 6
 GLC
-Text Label 20150 10700 0    40   ~ 0
+Text Label 20150 10700 0    40   ~ 6
 GLCZ
-Text Label 20150 9950 0    40   ~ 0
+Text Label 20150 9950 0    40   ~ 6
 GHCZ
 $Comp
 L Device:R R58
@@ -3051,7 +3051,7 @@ F 3 "" H 20100 10200 50  0001 C CNN
 	1    20100 10200
 	-1   0    0    1   
 $EndComp
-Text Label 19400 11100 0    39   ~ 0
+Text Label 19400 11100 0    39   ~ 6
 LSSC
 $Comp
 L Device:R R80
@@ -3097,9 +3097,9 @@ F 3 "" H 20200 11450 50  0001 C CNN
 	1    20200 11450
 	1    0    0    -1  
 $EndComp
-Text Label 19550 11250 0    39   ~ 0
+Text Label 19550 11250 0    39   ~ 6
 CSCP
-Text Label 19550 11650 0    39   ~ 0
+Text Label 19550 11650 0    39   ~ 6
 CSCM
 $Comp
 L Device:R R75
@@ -3117,19 +3117,19 @@ L Device:R R72
 U 1 1 5B3D2BAA
 P 19800 11500
 F 0 "R72" V 19880 11500 50  0000 C CNN
-F 1 "1k" V 19800 11500 50  0000 C CNN
+F 1 "47" V 19800 11500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 19730 11500 50  0001 C CNN
 F 3 "" H 19800 11500 50  0001 C CNN
 	1    19800 11500
 	0    1    1    0   
 $EndComp
-Text Label 19600 11450 1    39   ~ 0
+Text Label 19600 11450 1    39   ~ 6
 ISET_C
-Text Label 18750 6800 0    39   ~ 0
+Text Label 18750 6800 0    39   ~ 6
 CUR_A
-Text Label 18750 9400 0    39   ~ 0
+Text Label 18750 9400 0    39   ~ 6
 CUR_B
-Text Label 18750 11000 0    39   ~ 0
+Text Label 18750 11000 0    39   ~ 6
 CUR_C
 $Comp
 L power:VCC #PWR0111
@@ -3241,19 +3241,19 @@ F 3 "" H 21350 11150 60  0000 C CNN
 	1    21350 11150
 	1    0    0    -1  
 $EndComp
-Text Notes 15100 9400 0    47   ~ 0
+Text Notes 15100 9400 0    47   ~ 6
 firmware update process:\n-(temp) write SPI firmware to 328p \n-bitbanging new 64M1 firmware\n-write grbl firmware back to 328p
-Text Label 12600 9450 0    39   ~ 0
+Text Label 12600 9450 0    39   ~ 6
 CLO
-Text Label 12600 9350 0    39   ~ 0
+Text Label 12600 9350 0    39   ~ 6
 CHI
-Text Label 12600 9250 0    39   ~ 0
+Text Label 12600 9250 0    39   ~ 6
 BLO
-Text Label 12600 9150 0    39   ~ 0
+Text Label 12600 9150 0    39   ~ 6
 BHI
-Text Label 12600 9050 0    39   ~ 0
+Text Label 12600 9050 0    39   ~ 6
 ALO
-Text Label 12600 8950 0    39   ~ 0
+Text Label 12600 8950 0    39   ~ 6
 AHI
 $Comp
 L GrBLDC-rescue:C-RESCUE-GrBLDC C73
@@ -3277,9 +3277,9 @@ F 3 "~" H 18050 11450 60  0000 C CNN
 	1    18050 11450
 	-1   0    0    -1  
 $EndComp
-Text Label 17900 11700 0    39   ~ 0
+Text Label 17900 11700 0    39   ~ 6
 CP1
-Text Label 17900 11200 0    39   ~ 0
+Text Label 17900 11200 0    39   ~ 6
 CP2
 $Comp
 L GrBLDC-rescue:GND-RESCUE-GrBLDC #PWR0121
@@ -3370,7 +3370,7 @@ F 3 "" H 7750 9550 60  0000 C CNN
 	1    7750 9550
 	1    0    0    -1  
 $EndComp
-Text Label 7600 9400 0    39   ~ 0
+Text Label 7600 9400 0    39   ~ 6
 2V5REF
 $Comp
 L GrBLDC-rescue:GND-RESCUE-GrBLDC #PWR0125
@@ -3394,9 +3394,9 @@ F 3 "" H 10450 4050 60  0000 C CNN
 	1    10450 4050
 	-1   0    0    -1  
 $EndComp
-Text Notes 14900 6350 0    39   ~ 0
+Text Notes 14900 6350 0    39   ~ 6
 Counter
-Text Label 14900 6650 0    39   ~ 0
+Text Label 14900 6650 0    39   ~ 6
 A4910Fault
 $Comp
 L GrBLDC-rescue:R-RESCUE-GrBLDC R22
@@ -3431,15 +3431,15 @@ F 3 "~" H 7600 5600 60  0000 C CNN
 	1    7600 5600
 	1    0    0    1   
 $EndComp
-Text Notes 7350 5400 0    39   ~ 0
+Text Notes 7350 5400 0    39   ~ 6
 13 Hz\nLPF
-Text Label 8000 5250 0    39   ~ 0
+Text Label 8000 5250 0    39   ~ 6
 SPIN_PWM_to_Analog
-Text Notes 14900 5750 0    39   ~ 0
+Text Notes 14900 5750 0    39   ~ 6
 goalRPM
-Text Notes 8000 5150 0    39   ~ 0
+Text Notes 8000 5150 0    39   ~ 6
 Spindle Direction
-Text Notes 14900 5850 0    39   ~ 0
+Text Notes 14900 5850 0    39   ~ 6
 Direction
 $Comp
 L GrBLDC-rescue:TEST_1P J3
@@ -3463,15 +3463,15 @@ F 3 "" H 17250 13150 50  0001 C CNN
 	1    17050 13150
 	0    -1   -1   0   
 $EndComp
-Text Label 17050 12850 0    39   ~ 0
+Text Label 17050 12850 0    39   ~ 6
 a4910_STRn
-Text Label 17050 12950 0    39   ~ 0
+Text Label 17050 12950 0    39   ~ 6
 a4910_SDO
-Text Label 17050 13050 0    39   ~ 0
+Text Label 17050 13050 0    39   ~ 6
 a4910_SDI
-Text Label 17050 13150 0    39   ~ 0
+Text Label 17050 13150 0    39   ~ 6
 a4910_SCK
-Text Notes 14900 6450 0    39   ~ 0
+Text Notes 14900 6450 0    39   ~ 6
 grbl: slow down
 $Comp
 L GrBLDC-rescue:C-RESCUE-GrBLDC C88
@@ -4977,9 +4977,9 @@ F 3 "" H 20300 12300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 20300 12350
-Text Label 19500 12750 0    60   ~ 0
+Text Label 19500 12750 0    60   ~ 6
 VREG
-Text Label 20650 13000 0    60   ~ 0
+Text Label 20650 13000 0    60   ~ 6
 VBRG
 Wire Wire Line
 	20100 5500 20350 5500
@@ -5342,10 +5342,10 @@ F 3 "" H 7550 10100 50  0001 C CNN
 	1    7550 10100
 	1    0    0    -1  
 $EndComp
-Text Label 7550 10300 0    50   ~ 0
+Text Label 7550 10300 0    50   ~ 6
 VREF_DIV
 Connection ~ 7550 9800
-Text Notes 9250 10850 0    50   ~ 0
+Text Notes 9250 10850 0    50   ~ 6
 328p Output:\nL: Steppers Low power (VREF=1.04v) - Steppers Idle\nZ: Steppers Med power (VREF=1.78v) - Normal Motion\nH: Steppers High power (VREF=3.12v) - USE SPARINGLY!
 $Comp
 L GrBLDC-rescue:CONN_01X05 P5
@@ -5360,7 +5360,7 @@ F 3 "" H 14600 4250 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	13400 4050 13650 4050
-Text Notes 14800 4500 0    70   ~ 0
+Text Notes 14800 4500 0    70   ~ 6
 Probe_LED\n5V_LED\n24V_LED\nGND_LED\nSpindle_LED
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J1
@@ -5506,9 +5506,9 @@ F 3 "" H 17550 10100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8700 9450
-Text Label 14150 4150 0    50   ~ 0
+Text Label 14150 4150 0    50   ~ 6
 5V_LED
-Text Label 14100 4250 0    50   ~ 0
+Text Label 14100 4250 0    50   ~ 6
 24V_LED
 $Comp
 L GrBLDC-rescue:R-RESCUE-GrBLDC R62
@@ -5575,7 +5575,7 @@ Wire Wire Line
 	1700 1700 1700 9300
 Wire Wire Line
 	1750 9400 1750 2000
-Text Label 1300 3300 0    40   ~ 0
+Text Label 1300 3300 0    40   ~ 6
 DECAY
 Wire Wire Line
 	3800 3100 2450 3100
@@ -5605,7 +5605,7 @@ Wire Wire Line
 Connection ~ 4800 13350
 Wire Wire Line
 	4800 13350 4900 13350
-Text Label 4700 12550 0    50   ~ 0
+Text Label 4700 12550 0    50   ~ 6
 ESTOP_Filtered
 Wire Wire Line
 	10200 7900 10200 7850
@@ -5617,13 +5617,13 @@ Wire Wire Line
 	10200 7650 10200 7000
 Wire Wire Line
 	10100 7750 10250 7750
-Text Notes 10400 8300 2    50   ~ 0
+Text Notes 10400 8300 2    50   ~ 6
 VCC\nSPINDLE\nGND
-Text Notes 10600 8300 0    50   ~ 0
+Text Notes 10600 8300 0    50   ~ 6
 H_A\nH_B\nH_C
-Text Label 12750 4950 2    50   ~ 0
+Text Label 12750 4950 2    50   ~ 6
 Spindle_Wiper
-Text Label 11750 3000 0    40   ~ 0
+Text Label 11750 3000 0    40   ~ 6
 A1_Stepper_PMode
 Wire Wire Line
 	15200 8200 15200 8250
@@ -5635,7 +5635,7 @@ Wire Wire Line
 	15750 7400 15750 7450
 Wire Wire Line
 	15500 7400 15750 7400
-Text Label 14950 7800 0    60   ~ 0
+Text Label 14950 7800 0    60   ~ 6
 AVCC
 Connection ~ 15200 8200
 Wire Wire Line
@@ -5763,9 +5763,9 @@ Wire Wire Line
 	16200 8650 16200 3100
 Wire Wire Line
 	16200 8650 14900 8650
-Text Notes 12500 3100 0    40   ~ 0
+Text Notes 12500 3100 0    40   ~ 6
 64M1_MOSI
-Text Notes 12500 3300 0    40   ~ 0
+Text Notes 12500 3300 0    40   ~ 6
 64M1_CLK
 $Comp
 L Connector_Generic:Conn_02x02_Top_Bottom J6
@@ -5790,7 +5790,7 @@ Wire Wire Line
 	5800 9900 5800 10100
 Wire Wire Line
 	4900 10100 5800 10100
-Text Notes 6400 10050 2    40   ~ 0
+Text Notes 6400 10050 2    40   ~ 6
 2x2 so physical\nconnector fits\nthrough bushings
 Wire Wire Line
 	11100 7050 11100 7000
@@ -5844,19 +5844,19 @@ Wire Wire Line
 	11950 7850 11950 9750
 Wire Wire Line
 	11950 9750 15000 9750
-Text Label 11750 3200 0    40   ~ 0
+Text Label 11750 3200 0    40   ~ 6
 A3_64M1MISO
-Text Notes 12500 3200 0    40   ~ 0
+Text Notes 12500 3200 0    40   ~ 6
 64M1_MISO
-Text Notes 15550 8650 0    40   ~ 0
+Text Notes 15550 8650 0    40   ~ 6
 64M1_MOSI
-Text Notes 15550 8750 0    40   ~ 0
+Text Notes 15550 8750 0    40   ~ 6
 64M1_CLK
-Text Notes 15550 9050 0    40   ~ 0
+Text Notes 15550 9050 0    40   ~ 6
 64M1_MISO
-Text Notes 12500 2900 0    40   ~ 0
+Text Notes 12500 2900 0    40   ~ 6
 64M1_RST
-Text Notes 15550 8950 0    40   ~ 0
+Text Notes 15550 8950 0    40   ~ 6
 64M1_RST
 Wire Wire Line
 	11950 7850 12700 7850
@@ -5865,7 +5865,7 @@ Wire Wire Line
 	16800 10850 16800 3000
 Wire Wire Line
 	11700 3000 16800 3000
-Text Label 11150 7850 0    40   ~ 0
+Text Label 11150 7850 0    40   ~ 6
 HALL_C
 Wire Wire Line
 	7350 900  7350 5150
@@ -5911,7 +5911,7 @@ F 3 "" H 10800 4600 50  0000 C CNN
 	1    10800 4600
 	0    -1   1    0   
 $EndComp
-Text Notes 10950 4750 3    63   ~ 0
+Text Notes 10950 4750 3    63   ~ 6
 VCC\nX1LIM\nGND
 Wire Wire Line
 	12100 4950 12100 6700
@@ -5933,7 +5933,7 @@ Wire Wire Line
 	12550 5500 12550 6150
 Wire Wire Line
 	12500 5450 12500 6250
-Text Notes 10800 3800 1    50   ~ 0
+Text Notes 10800 3800 1    50   ~ 6
 Filter not required on X1;\nOnly used during Autolevel
 $Comp
 L GrBLDC-rescue:R-RESCUE-GrBLDC R65
@@ -6119,9 +6119,9 @@ Wire Wire Line
 Connection ~ 7550 9900
 Wire Wire Line
 	7550 9900 7550 9950
-Text Notes 5700 13050 0    50   ~ 0
+Text Notes 5700 13050 0    50   ~ 6
 LO: Motion Disabled\nHI: Normal Operation
-Text Label 10950 2650 0    50   ~ 0
+Text Label 10950 2650 0    50   ~ 6
 X1LIM
 Wire Wire Line
 	4600 12550 17550 12550
@@ -6135,7 +6135,7 @@ Wire Wire Line
 Wire Wire Line
 	17150 5950 14900 5950
 NoConn ~ 14900 6550
-Text Label 14900 5950 0    39   ~ 0
+Text Label 14900 5950 0    39   ~ 6
 BLDC_En
 $Comp
 L GrBLDC-rescue:TEST_1P J4
@@ -6181,13 +6181,13 @@ F 3 "" H 3300 14100 60  0000 C CNN
 	1    3300 14100
 	1    0    0    -1  
 $EndComp
-Text Label 2800 13850 0    40   ~ 0
+Text Label 2800 13850 0    40   ~ 6
 ARD_VIN
-Text Label 2850 13550 0    40   ~ 0
+Text Label 2850 13550 0    40   ~ 6
 5V
-Text Label 2800 13450 0    40   ~ 0
+Text Label 2800 13450 0    40   ~ 6
 3V3
-Text Label 2800 13150 0    40   ~ 0
+Text Label 2800 13150 0    40   ~ 6
 ARD_UNDEF
 $Comp
 L GrBLDC-rescue:GND-RESCUE-GrBLDC #PWR025
@@ -6211,7 +6211,7 @@ F 3 "~" H 3300 13850 60  0000 C CNN
 	1    3300 13850
 	1    0    0    -1  
 $EndComp
-Text Notes 2300 14100 0    70   ~ 0
+Text Notes 2300 14100 0    70   ~ 6
 ARDUINO\nTOP LEFT
 $Comp
 L power:VCC #PWR01
@@ -6224,13 +6224,13 @@ F 3 "" H 3300 13500 60  0000 C CNN
 	1    3300 13500
 	1    0    0    -1  
 $EndComp
-Text Label 2850 13750 0    40   ~ 0
+Text Label 2850 13750 0    40   ~ 6
 GND
-Text Label 2850 13650 0    40   ~ 0
+Text Label 2850 13650 0    40   ~ 6
 GND
-Text Label 2800 13350 0    40   ~ 0
+Text Label 2800 13350 0    40   ~ 6
 RESET_328p
-Text Label 2800 13250 0    40   ~ 0
+Text Label 2800 13250 0    40   ~ 6
 IOREF
 $Comp
 L GrBLDC-rescue:CONN_8 P2
@@ -6313,7 +6313,7 @@ L Device:R R66
 U 1 1 5B3D2BB0
 P 19400 11500
 F 0 "R66" V 19480 11500 50  0000 C CNN
-F 1 "56k" V 19400 11500 50  0000 C CNN
+F 1 "DNP" V 19400 11500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 19330 11500 50  0001 C CNN
 F 3 "" H 19400 11500 50  0001 C CNN
 	1    19400 11500
@@ -6324,7 +6324,7 @@ L Device:R R28
 U 1 1 5B3B07F7
 P 19400 8900
 F 0 "R28" V 19480 8900 50  0000 C CNN
-F 1 "56k" V 19400 8900 50  0000 C CNN
+F 1 "DNP" V 19400 8900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 19330 8900 50  0001 C CNN
 F 3 "" H 19400 8900 50  0001 C CNN
 	1    19400 8900
@@ -6335,7 +6335,7 @@ L Device:R R24
 U 1 1 5B39C6B9
 P 19400 6300
 F 0 "R24" V 19480 6300 50  0000 C CNN
-F 1 "56k" V 19400 6300 50  0000 C CNN
+F 1 "DNP" V 19400 6300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 19330 6300 50  0001 C CNN
 F 3 "" H 19400 6300 50  0001 C CNN
 	1    19400 6300
