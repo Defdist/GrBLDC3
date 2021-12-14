@@ -1,0 +1,1 @@
+Pins PC3 (64M1:7) AND PD4 (64M1:12) perform the same function: tell 328p when to slow down.  This doesn't require a board spin, but if the board is ever modified and more pins are needed, then we can repurpose PC3 (NOT PD4).  PD4 must remain connected because it is the 64M1's SPI programming clock pin.

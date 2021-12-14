@@ -1,0 +1,1 @@
+If we use Uno's built-in reference, then we can remove the LM4040 from GrBLDC.

@@ -1,0 +1,6 @@
+RevC Changes:
+
+-Added QTY4 mechanical thru holes for flying probe tester
+-Added D4 to prevent sinking into the 24 volt rail.  PN is SMZJ3800B-E3/52GITR-ND
+-Changed Thru hole ID on P1/P2/P8/P9/P10/P11 from 0.813 mm to 1.000 mm
+-Moved C51/C55/C56/C59/C60 to make room for D4.

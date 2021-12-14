@@ -1,0 +1,26 @@
+#Feeder,Feeder ID,Type,Nozzle,X,Y,Angle,Footprint,Value,Pick height,Pick delay,Placement height,Placement delay,Vacuum test,Vacuum value,Vision align,Speed,Skip,Size correct,Flash type,Brightness,Feed strength,Needle SpeedNeedle X,Needle Y,
+stack,1,3,1,22.73,33.10,0.00,0603,0603/1k,0.50,100,1.40,100,try twice,-1,1,100,No,No,2,100,4,60,36.47,36.56,-40,-40,
+stack,20,3,1,22.94,304.63,0.00,,0603/dnp,0.50,0,0.00,0,No,-1,1,100,No,No,2,100,4,60,37.00,308.16,-40,-40,
+stack,95,1,2,322.00,94.00,0.00,,-/HS,3.00,500,0.00,0,try once,-1,1,100,No,No,2,100,1,10,301.61,103.30,1,10,-40,-40,
+
+#PCB,Program type,Feed mode,Feed pos X,Feed pos Y,Eject mode,Bad board X,Bad board Y,Bad board value,
+pcb,Manual,Lock,100,100,Back,150,0,10,
+
+Mark recogniseRecognise typeManualIdentification Range of Placement Head
+
+markconfirm,Whole,Manual,0,
+
+#Mark pointMark X,Mark Y,Min diameter,Max diameter,Flash type,Brightness,
+mark,154.03,322.726,0.8,3,1,0,
+mark,118.113,298.19,0.8,3,1,0,
+mark,133.81,227.774,0.8,3,1,0,
+#Test,Enable,
+test,No,
+
+#Mirror,Panelized type,Column,Rows,Left bottom X,Left bottom Y,Left top X,Left top Y,Right top X,Right top Y,Pcb angle,Mirror board X,Mirror board Y,
+mirror_create,0,1,1,118.5,253.34,0,0,0,0,0,0,0,
+#Mirror,First component X,First component Y,Rotation,Skip,
+mirror,118.50,253.34,0,No,
+
+#Chip,Feeder ID,Nozzle,Name,Value,Footprint,X,Y,Rotation,Skip
+comp,1,1,R55,1k,0603,118.50,253.37,90.00,No,

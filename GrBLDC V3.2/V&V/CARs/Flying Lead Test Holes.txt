@@ -1,0 +1,6 @@
+Need to add flying lead test holes so that Seeedstudio doesn't blow holes through planes in bad places.
+
+Seeed recommends:
+1.5 mm min, preferably 2 mm
+one hole on each corner
+Fixture testing (large batches) requires board margins 

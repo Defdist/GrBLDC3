@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Audio Connector SJ1-3524NG")(type KiCad)(uri "${KIPRJMOD}/Audio Connector SJ1-3524NG.pretty")(options "")(descr ""))
+  (lib (name LEDIO)(type KiCad)(uri "${KIPRJMOD}/Audio Connector SJ1-3524NG.pretty/LEDIO.pretty")(options "")(descr ""))
+)

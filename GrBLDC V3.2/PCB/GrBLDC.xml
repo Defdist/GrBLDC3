@@ -1,0 +1,2279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/John/Desktop/DD MASTER/GhostGunner/GrBLDC V2/GrBLDC MASTER/GrBLDC.sch</source>
+    <date>1/7/2016 1:12:12 PM</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>8 mar 2015</date>
+        <source>GrBLDC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P9">
+      <value>CONN_8</value>
+      <footprint>A3938:ARDUINO-SIL-8</footprint>
+      <libsource lib="GrBLDC-cache" part="CONN_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5456F70B</tstamp>
+    </comp>
+    <comp ref="P10">
+      <value>CONN_8</value>
+      <footprint>A3938:ARDUINO-SIL-8</footprint>
+      <libsource lib="GrBLDC-cache" part="CONN_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5456F71A</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_8</value>
+      <footprint>A3938:ARDUINO-SIL-8</footprint>
+      <libsource lib="GrBLDC-cache" part="CONN_8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5456F729</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_6</value>
+      <footprint>A3938:ARDUINO-SIL-6</footprint>
+      <libsource lib="GrBLDC-cache" part="CONN_6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5456F738</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_9</value>
+      <footprint>A3938:SIL-9</footprint>
+      <libsource lib="GrBLDC-cache" part="CONN_9"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54582647</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54583320</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458332F</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>33n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458333E</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>33n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458334D</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458335C</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458491F</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54584C0C</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54584C1B</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54584C48</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54584C57</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458509B</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545850A1</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545850A7</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545850AD</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545850C9</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545850CF</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545850D5</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545850DB</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54585740</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545858E4</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545858F1</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>IRF5406</value>
+      <footprint>A3938:IRF5406</footprint>
+      <libsource lib="GrBLDC-cache" part="MOSFET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545871EA</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>IRF5406</value>
+      <footprint>A3938:IRF5406</footprint>
+      <libsource lib="GrBLDC-cache" part="MOSFET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545871F7</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545879FF</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54587A18</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458837F</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>33n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54588BF5</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458B0D4</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458B0DA</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458E602</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRF5406</value>
+      <footprint>A3938:IRF5406</footprint>
+      <libsource lib="GrBLDC-cache" part="MOSFET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F2F5</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRF5406</value>
+      <footprint>A3938:IRF5406</footprint>
+      <libsource lib="GrBLDC-cache" part="MOSFET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F2FB</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F30D</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F313</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F319</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF5406</value>
+      <footprint>A3938:IRF5406</footprint>
+      <libsource lib="GrBLDC-cache" part="MOSFET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F345</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF5406</value>
+      <footprint>A3938:IRF5406</footprint>
+      <libsource lib="GrBLDC-cache" part="MOSFET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F34B</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F35D</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F363</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F369</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>33n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458F960</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>33n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545901FF</tstamp>
+    </comp>
+    <comp ref="C65">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5459211E</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>470k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545C092A</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>470k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545C0D3B</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>470k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545C1154</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>470k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545C1A94</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>470k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545C1EAB</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>470k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545C3685</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545C3E26</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545C43C3</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>330u</value>
+      <footprint>Capacitors_SMD:c_elec_10x10.5</footprint>
+      <libsource lib="GrBLDC-rescue" part="CP1-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545D2ED1</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>330u</value>
+      <footprint>Capacitors_SMD:c_elec_10x10.5</footprint>
+      <libsource lib="GrBLDC-rescue" part="CP1-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>545D2F6F</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5458328E</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54615BD4</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54615BE3</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54615BF2</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>0.09</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546AC67C</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546B3365</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>330u</value>
+      <footprint>Capacitors_SMD:c_elec_10x10.5</footprint>
+      <libsource lib="GrBLDC-rescue" part="CP1-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546CDFB5</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546CE3D4</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546CF825</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546CFC4D</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>546D038D</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54A10BB0</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>A3938</value>
+      <footprint>A3938:A3938</footprint>
+      <libsource lib="a3938" part="A3938"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645D9A0</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>47</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56485AE5</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564878B5</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>680p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56487B07</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>DRV8818</value>
+      <footprint>DRV8818:DRV8818</footprint>
+      <libsource lib="drv8818" part="DRV8818"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFDCD</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X04</value>
+      <footprint>A3938:Pin_A98335-ND_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFDD9</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>0.09</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFDDF</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0.09</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFDE5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFDF8</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFE0A</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFE36</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFE42</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>680p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFE48</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFE60</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>680p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFE66</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFE87</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>SPARE</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFE95</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>SPARE</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFE9B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFEB6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFEBC</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564BFEEF</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DRV8818</value>
+      <footprint>DRV8818:DRV8818</footprint>
+      <libsource lib="drv8818" part="DRV8818"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D18DA</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X04</value>
+      <footprint>A3938:Pin_A98335-ND_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D18E6</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>0.09</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D18EC</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>0.09</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D18F2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D1905</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D1917</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D193C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D1944</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>680p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D194A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D1962</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>680p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D1968</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D19AA</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DRV8818</value>
+      <footprint>DRV8818:DRV8818</footprint>
+      <libsource lib="drv8818" part="DRV8818"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3350</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X04</value>
+      <footprint>A3938:Pin_A98335-ND_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D335C</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>0.09</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3362</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>0.09</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3368</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D337B</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D338D</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D33B2</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D33BA</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>680p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D33C0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D33D8</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>680p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D33DE</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3420</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>DRV8818</value>
+      <footprint>DRV8818:DRV8818</footprint>
+      <libsource lib="drv8818" part="DRV8818"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3436</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X04</value>
+      <footprint>A3938:Pin_A98335-ND_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3442</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0.09</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3448</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>0.09</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D344E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3461</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3473</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3498</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D34A0</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>680p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D34A6</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>56k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D34BE</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>680p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D34C4</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564D3506</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X05</value>
+      <footprint>A3938:Pin_Header_A98336-ND_1x05</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564EFA2C</tstamp>
+    </comp>
+    <comp ref="P13">
+      <value>CONN_01X02</value>
+      <footprint>A3938:Pin_A98333-ND_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564F2625</tstamp>
+    </comp>
+    <comp ref="P12">
+      <value>CONN_01X03</value>
+      <footprint>Custom Footprints:277-1722-ND</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564F57B0</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645D3EC</tstamp>
+    </comp>
+    <comp ref="C67">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645C93D</tstamp>
+    </comp>
+    <comp ref="C68">
+      <value>100u</value>
+      <footprint>A3938:c_elec_493-3953-2-ND_6.3x7.7</footprint>
+      <libsource lib="GrBLDC-rescue" part="CP1-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564840CA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LM4040</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="a4915-jts" part="LM4040"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56485B02</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564895E4</tstamp>
+    </comp>
+    <comp ref="C74">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56489902</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>5kPOT</value>
+      <footprint>A3938:POT_3361</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56498768</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>SPARE</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5649C1F4</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>SPARE</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5649C1FA</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>5kPOT</value>
+      <footprint>A3938:POT_3361</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5649C209</tstamp>
+    </comp>
+    <comp ref="C72">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5649FBB3</tstamp>
+    </comp>
+    <comp ref="C73">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A27E2</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564AB965</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564AB96B</tstamp>
+    </comp>
+    <comp ref="C69">
+      <value>100u</value>
+      <footprint>A3938:c_elec_493-3953-2-ND_6.3x7.7</footprint>
+      <libsource lib="GrBLDC-rescue" part="CP1-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564AB971</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564ABC41</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564ABC47</tstamp>
+    </comp>
+    <comp ref="C70">
+      <value>100u</value>
+      <footprint>A3938:c_elec_493-3953-2-ND_6.3x7.7</footprint>
+      <libsource lib="GrBLDC-rescue" part="CP1-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564ABC4D</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564ABE87</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>220n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564ABE8D</tstamp>
+    </comp>
+    <comp ref="C71">
+      <value>100u</value>
+      <footprint>A3938:c_elec_493-3953-2-ND_6.3x7.7</footprint>
+      <libsource lib="GrBLDC-rescue" part="CP1-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564ABE93</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>0.09</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5648C0FB</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>0.09</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5648C2DD</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564936EE</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564938DC</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5649C548</tstamp>
+    </comp>
+    <comp ref="HS1">
+      <value>Heat_Sink</value>
+      <footprint>A3938:HeatSink</footprint>
+      <libsource lib="a3938" part="Heat_Sink"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5649696C</tstamp>
+    </comp>
+    <comp ref="HS2">
+      <value>Heat_Sink</value>
+      <footprint>A3938:HeatSink</footprint>
+      <libsource lib="a3938" part="Heat_Sink"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56496D67</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A2888</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564A2A81</tstamp>
+    </comp>
+    <comp ref="P14">
+      <value>CONN_01X03</value>
+      <footprint>Custom Footprints:Pin_Header_277-1578-ND_3x01</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56944454</tstamp>
+    </comp>
+    <comp ref="P11">
+      <value>CONN_2</value>
+      <footprint>A3938:SIL-2</footprint>
+      <libsource lib="GrBLDC-cache" part="CONN_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54589F8A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="a3938" part="A3938">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">A3938</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET" type="input"/>
+        <pin num="2" name="GLC" type="output"/>
+        <pin num="3" name="SC" type="input"/>
+        <pin num="4" name="N/C" type="NotConnected"/>
+        <pin num="5" name="N/C" type="NotConnected"/>
+        <pin num="6" name="GHC" type="output"/>
+        <pin num="7" name="CC" type="input"/>
+        <pin num="8" name="GLB" type="output"/>
+        <pin num="9" name="SB" type="input"/>
+        <pin num="10" name="GHB" type="output"/>
+        <pin num="11" name="CB" type="input"/>
+        <pin num="12" name="GLA" type="output"/>
+        <pin num="13" name="SA" type="input"/>
+        <pin num="14" name="GHA" type="output"/>
+        <pin num="15" name="CA" type="input"/>
+        <pin num="16" name="VREG" type="input"/>
+        <pin num="17" name="LCAP" type="power_in"/>
+        <pin num="18" name="N/C" type="NotConnected"/>
+        <pin num="19" name="FAULT" type="input"/>
+        <pin num="20" name="MODE" type="input"/>
+        <pin num="21" name="VBB" type="power_in"/>
+        <pin num="22" name="H1" type="input"/>
+        <pin num="23" name="N/C" type="NotConnected"/>
+        <pin num="24" name="H3" type="input"/>
+        <pin num="25" name="H2" type="input"/>
+        <pin num="26" name="DIR" type="input"/>
+        <pin num="27" name="BRAKE" type="input"/>
+        <pin num="28" name="BRKCAP" type="input"/>
+        <pin num="29" name="BRKSEL" type="input"/>
+        <pin num="30" name="PWM" type="input"/>
+        <pin num="31" name="RC" type="input"/>
+        <pin num="32" name="SENSE" type="input"/>
+        <pin num="33" name="REF" type="input"/>
+        <pin num="34" name="DEAD" type="input"/>
+        <pin num="35" name="AGND" type="power_in"/>
+        <pin num="36" name="PGND" type="power_in"/>
+        <pin num="37" name="N/C" type="NotConnected"/>
+        <pin num="38" name="N/C" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="GrBLDC-rescue" part="C-RESCUE-GrBLDC">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-GrBLDC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector 01x05</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GrBLDC-cache" part="CONN_2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GrBLDC-cache" part="CONN_6">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GrBLDC-cache" part="CONN_8">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GrBLDC-cache" part="CONN_9">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GrBLDC-rescue" part="CP1-RESCUE-GrBLDC">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-RESCUE-GrBLDC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="drv8818" part="DRV8818">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8818</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ISENA" type="power_out"/>
+        <pin num="2" name="HOME" type="output"/>
+        <pin num="3" name="DIR" type="input"/>
+        <pin num="4" name="AOUT1" type="power_out"/>
+        <pin num="5" name="DECAY" type="input"/>
+        <pin num="6" name="RCA" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VREF" type="input"/>
+        <pin num="9" name="RCB" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+        <pin num="11" name="BOUT1" type="power_out"/>
+        <pin num="12" name="USM1" type="input"/>
+        <pin num="13" name="USM0" type="input"/>
+        <pin num="14" name="ISENB" type="power_out"/>
+        <pin num="15" name="VMB" type="power_in"/>
+        <pin num="16" name="SRn" type="input"/>
+        <pin num="17" name="RESETn" type="input"/>
+        <pin num="18" name="BOUT2" type="power_out"/>
+        <pin num="19" name="STEP" type="input"/>
+        <pin num="20" name="VGD" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="VCP" type="power_in"/>
+        <pin num="23" name="CP1" type="power_in"/>
+        <pin num="24" name="CP2" type="power_in"/>
+        <pin num="25" name="AOUT2" type="power_out"/>
+        <pin num="26" name="ENABLEn" type="input"/>
+        <pin num="27" name="SLEEPn" type="input"/>
+        <pin num="28" name="VMA" type="power_in"/>
+        <pin num="29" name="GND(PAD)" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="a3938" part="Heat_Sink">
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heat_Sink</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="a4915-jts" part="LM4040">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LM4040</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_in"/>
+        <pin num="2" name="-" type="power_in"/>
+        <pin num="3" name="NC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="GrBLDC-cache" part="MOS_N">
+      <aliases>
+        <alias>MOSFET_N</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="GrBLDC-rescue" part="R-RESCUE-GrBLDC">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-GrBLDC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="a4915-jts">
+      <uri>C:\Users\John\Desktop\DD MASTER\GhostGunner\GrbIO V1\GrBLDC Master\KiCAD-JTS\LibMod-JTS\a4915-jts.lib</uri>
+    </library>
+    <library logical="a3938">
+      <uri>C:\Users\John\Desktop\DD MASTER\GhostGunner\GrBLDC V2\GrBLDC MASTER\Custom Footprints\a3938.lib</uri>
+    </library>
+    <library logical="drv8818">
+      <uri>C:\Users\John\Desktop\DD MASTER\GhostGunner\GrBLDC V2\GrBLDC MASTER\Custom Footprints\drv8818.lib</uri>
+    </library>
+    <library logical="GrBLDC-cache">
+      <uri>C:\Users\John\Desktop\DD MASTER\GhostGunner\GrBLDC V2\GrBLDC MASTER\GrBLDC-cache.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="GrBLDC-rescue">
+      <uri>C:\Users\John\Desktop\DD MASTER\GhostGunner\GrBLDC V2\GrBLDC MASTER\GrBLDC-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/X2_VGD">
+      <node ref="U2" pin="20"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="2" name="/X2_VCP">
+      <node ref="C20" pin="1"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="3" name="/X2_CP2">
+      <node ref="U2" pin="24"/>
+      <node ref="C21" pin="2"/>
+    </net>
+    <net code="4" name="/X2_ISENA">
+      <node ref="R16" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="5" name="/X2_ISENB">
+      <node ref="R12" pin="1"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="6" name="/X2_RCA">
+      <node ref="U2" pin="6"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="/X2_RCB">
+      <node ref="U2" pin="9"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="8" name="/X2_CP1">
+      <node ref="U2" pin="23"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="9" name="/X1_RCA">
+      <node ref="C6" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="10" name="/X1_RCB">
+      <node ref="C10" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="11" name="/X1_CP1">
+      <node ref="C19" pin="1"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="12" name="/X1_VGD">
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="13" name="/Y_RCA">
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="14" name="/Z_ISENA">
+      <node ref="R18" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="15" name="/Z_ISENB">
+      <node ref="U4" pin="14"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="16" name="/Y_CP1">
+      <node ref="U3" pin="23"/>
+      <node ref="C23" pin="1"/>
+    </net>
+    <net code="17" name="/Y_VGD">
+      <node ref="C16" pin="1"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="18" name="/Y_RCB">
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="19" name="/Y_CP2">
+      <node ref="U3" pin="24"/>
+      <node ref="C23" pin="2"/>
+    </net>
+    <net code="20" name="/Y_VCP">
+      <node ref="C22" pin="1"/>
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="21" name="/Y_ISENA">
+      <node ref="U3" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="22" name="/Y_ISENB">
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="23" name="/GHC">
+      <node ref="R48" pin="1"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="24" name="/PI_XLIM">
+      <node ref="R25" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="25" name="/PI_ZLIM">
+      <node ref="R27" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="26" name="/PI_YLIM">
+      <node ref="C34" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="27" name="/X1_CP2">
+      <node ref="C19" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="28" name="/X1_VCP">
+      <node ref="U1" pin="22"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="29" name="/X1_ISENA">
+      <node ref="R15" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="30" name="/X1_ISENB">
+      <node ref="U1" pin="14"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="31" name="/X1_B2">
+      <node ref="U1" pin="18"/>
+      <node ref="P6" pin="4"/>
+    </net>
+    <net code="32" name="/X1_B1">
+      <node ref="P6" pin="3"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="33" name="/X1_A2">
+      <node ref="P6" pin="2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="34" name="/X1_A1">
+      <node ref="P6" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="35" name="GNDPWR">
+      <node ref="C65" pin="2"/>
+      <node ref="C60" pin="2"/>
+      <node ref="R58" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="C59" pin="2"/>
+      <node ref="R57" pin="2"/>
+      <node ref="C66" pin="2"/>
+      <node ref="Q6" pin="S"/>
+      <node ref="C54" pin="2"/>
+      <node ref="R51" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="U5" pin="32"/>
+      <node ref="Q4" pin="S"/>
+      <node ref="Q2" pin="S"/>
+    </net>
+    <net code="36" name="/D13_SPIN_DIR">
+      <node ref="P9" pin="3"/>
+      <node ref="U5" pin="26"/>
+    </net>
+    <net code="37" name="/Z_VGD">
+      <node ref="C17" pin="1"/>
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="38" name="GND">
+      <node ref="R16" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C67" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C68" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C61" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C71" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="HS2" pin="2"/>
+      <node ref="HS2" pin="1"/>
+      <node ref="HS1" pin="2"/>
+      <node ref="HS1" pin="1"/>
+      <node ref="C58" pin="2"/>
+      <node ref="P11" pin="2"/>
+      <node ref="P14" pin="3"/>
+      <node ref="P14" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="29"/>
+      <node ref="R57" pin="1"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="R58" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="P8" pin="5"/>
+      <node ref="P8" pin="8"/>
+      <node ref="U5" pin="29"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="P8" pin="2"/>
+      <node ref="U4" pin="21"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U5" pin="36"/>
+      <node ref="U5" pin="27"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C64" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="U5" pin="35"/>
+      <node ref="U1" pin="21"/>
+      <node ref="U4" pin="16"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U4" pin="29"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C48" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="29"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="21"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="P9" pin="2"/>
+      <node ref="P2" pin="6"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="P2" pin="7"/>
+      <node ref="C74" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C63" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="R38" pin="1"/>
+      <node ref="P5" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C69" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U3" pin="29"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C72" pin="2"/>
+      <node ref="C73" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="21"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C70" pin="2"/>
+    </net>
+    <net code="39" name="+24V">
+      <node ref="C52" pin="1"/>
+      <node ref="C63" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="C66" pin="1"/>
+      <node ref="Q1" pin="D"/>
+      <node ref="C64" pin="1"/>
+      <node ref="Q3" pin="D"/>
+      <node ref="C43" pin="1"/>
+      <node ref="C59" pin="1"/>
+      <node ref="C57" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="U4" pin="28"/>
+      <node ref="C60" pin="1"/>
+      <node ref="C65" pin="1"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U5" pin="21"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U3" pin="28"/>
+      <node ref="Q5" pin="D"/>
+      <node ref="U1" pin="28"/>
+      <node ref="C54" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C53" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C67" pin="1"/>
+      <node ref="C68" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C70" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C56" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="C71" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="P14" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="P11" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U2" pin="15"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C61" pin="1"/>
+      <node ref="C69" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="U2" pin="28"/>
+      <node ref="C62" pin="1"/>
+    </net>
+    <net code="40" name="/PROBE_NOISY">
+      <node ref="R52" pin="2"/>
+      <node ref="P13" pin="2"/>
+      <node ref="P13" pin="1"/>
+      <node ref="R53" pin="2"/>
+    </net>
+    <net code="41" name="/ARD_VIN">
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="42" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="43" name="/Z_CP1">
+      <node ref="C25" pin="1"/>
+      <node ref="U4" pin="23"/>
+    </net>
+    <net code="44" name="/Z_VCP">
+      <node ref="U4" pin="22"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="45" name="/Z_RCB">
+      <node ref="C13" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="46" name="/Z_CP2">
+      <node ref="C25" pin="2"/>
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="47" name="/Z_RCA">
+      <node ref="U4" pin="6"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="48" name="VCC">
+      <node ref="R36" pin="2"/>
+      <node ref="U4" pin="17"/>
+      <node ref="R53" pin="1"/>
+      <node ref="P5" pin="5"/>
+      <node ref="P2" pin="5"/>
+      <node ref="R1" pin="1"/>
+      <node ref="P8" pin="7"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C58" pin="1"/>
+      <node ref="P8" pin="4"/>
+      <node ref="U3" pin="12"/>
+      <node ref="C42" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="R35" pin="2"/>
+      <node ref="U3" pin="27"/>
+      <node ref="U3" pin="17"/>
+      <node ref="R37" pin="2"/>
+      <node ref="P8" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="10"/>
+      <node ref="C49" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R56" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U4" pin="27"/>
+      <node ref="U2" pin="27"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U1" pin="17"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="49" name="/A3938_RC">
+      <node ref="C36" pin="1"/>
+      <node ref="U5" pin="31"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="50" name="/MODE">
+      <node ref="R23" pin="1"/>
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="51" name="/2V5REF">
+      <node ref="D1" pin="1"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="R56" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="R54" pin="1"/>
+      <node ref="C74" pin="1"/>
+    </net>
+    <net code="52" name="/Z_A2">
+      <node ref="U4" pin="25"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="53" name="/DECAY">
+      <node ref="R2" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="54" name="/Y_B2">
+      <node ref="P3" pin="4"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="55" name="/Y_B1">
+      <node ref="P3" pin="3"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="56" name="/Y_A2">
+      <node ref="P3" pin="2"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="57" name="/Y_A1">
+      <node ref="U3" pin="4"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="58" name="/X2_B2">
+      <node ref="P7" pin="4"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="59" name="/X2_B1">
+      <node ref="P7" pin="3"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="60" name="/X2_A2">
+      <node ref="P7" pin="2"/>
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="61" name="/X2_A1">
+      <node ref="P7" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="62" name="/Z_B2">
+      <node ref="P4" pin="4"/>
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="63" name="/Z_B1">
+      <node ref="P4" pin="3"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="64" name="/Z_A1">
+      <node ref="U4" pin="4"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="65" name="/ILIM_STEP">
+      <node ref="U4" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C72" pin="1"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="66" name="/HALL_C">
+      <node ref="P5" pin="1"/>
+      <node ref="R34" pin="2"/>
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="67" name="/ILIM_BLDC">
+      <node ref="R54" pin="2"/>
+      <node ref="RV2" pin="2"/>
+      <node ref="R55" pin="1"/>
+      <node ref="U5" pin="33"/>
+      <node ref="C73" pin="1"/>
+    </net>
+    <net code="68" name="/HALL_B">
+      <node ref="U5" pin="25"/>
+      <node ref="P5" pin="2"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="69" name="/HALL_A">
+      <node ref="P5" pin="3"/>
+      <node ref="U5" pin="22"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="70" name="/ZLIM">
+      <node ref="R32" pin="1"/>
+      <node ref="P8" pin="3"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="71" name="/GHCZ">
+      <node ref="R49" pin="2"/>
+      <node ref="R48" pin="2"/>
+      <node ref="Q5" pin="G"/>
+    </net>
+    <net code="72" name="/VREG">
+      <node ref="U5" pin="28"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="73" name="Net-(C41-Pad1)">
+      <node ref="U5" pin="17"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C41" pin="1"/>
+    </net>
+    <net code="74" name="/GHAZ">
+      <node ref="R39" pin="2"/>
+      <node ref="Q1" pin="G"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="75" name="/GHBZ">
+      <node ref="R45" pin="2"/>
+      <node ref="Q3" pin="G"/>
+      <node ref="R44" pin="2"/>
+    </net>
+    <net code="76" name="/PHASE_B">
+      <node ref="U5" pin="9"/>
+      <node ref="P12" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="Q4" pin="D"/>
+      <node ref="Q3" pin="S"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="77" name="/PHASE_A">
+      <node ref="P12" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="U5" pin="13"/>
+      <node ref="Q1" pin="S"/>
+      <node ref="Q2" pin="D"/>
+      <node ref="C45" pin="2"/>
+    </net>
+    <net code="78" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="79" name="Net-(U5-Pad38)">
+      <node ref="U5" pin="38"/>
+    </net>
+    <net code="80" name="/GLB">
+      <node ref="U5" pin="8"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="81" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="82" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="83" name="/GHB">
+      <node ref="U5" pin="10"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="86" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="87" name="Net-(U5-Pad37)">
+      <node ref="U5" pin="37"/>
+    </net>
+    <net code="88" name="/CA">
+      <node ref="C45" pin="1"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="89" name="/TDEAD">
+      <node ref="R24" pin="2"/>
+      <node ref="U5" pin="34"/>
+    </net>
+    <net code="90" name="/GHA">
+      <node ref="U5" pin="14"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="91" name="Net-(U5-Pad23)">
+      <node ref="U5" pin="23"/>
+    </net>
+    <net code="92" name="/CB">
+      <node ref="C47" pin="1"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="93" name="/PI_PRB">
+      <node ref="C50" pin="2"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="94" name="/XLIM">
+      <node ref="R30" pin="1"/>
+      <node ref="P8" pin="9"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="95" name="/YLIM">
+      <node ref="R36" pin="1"/>
+      <node ref="P8" pin="6"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="96" name="/D2_STEP_X">
+      <node ref="U2" pin="19"/>
+      <node ref="U1" pin="19"/>
+      <node ref="P10" pin="6"/>
+    </net>
+    <net code="97" name="/D3_STEP_Y">
+      <node ref="P10" pin="5"/>
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="98" name="/A1_FEEDHOLD">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="99" name="/A0_RESET">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="100" name="/3V3">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="101" name="/RESET">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="102" name="/IOREF">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="103" name="/ARD_UNDEF">
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="104" name="Net-(P10-Pad8)">
+      <node ref="P10" pin="8"/>
+    </net>
+    <net code="105" name="Net-(P10-Pad7)">
+      <node ref="P10" pin="7"/>
+    </net>
+    <net code="106" name="/A2_CYCLE_START">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="107" name="/A5_PROBE">
+      <node ref="P1" pin="6"/>
+      <node ref="C48" pin="2"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="108" name="/D4_STEP_Z">
+      <node ref="U4" pin="19"/>
+      <node ref="P10" pin="4"/>
+    </net>
+    <net code="109" name="/D5_DIR_X">
+      <node ref="P10" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="110" name="/D6_DIR_Y">
+      <node ref="P10" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="111" name="/D7_DIR_Z">
+      <node ref="P10" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="112" name="/D8_STEP_EN_n">
+      <node ref="U4" pin="26"/>
+      <node ref="P9" pin="8"/>
+      <node ref="U1" pin="26"/>
+      <node ref="U2" pin="26"/>
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="113" name="/D12_LIMIT_Z">
+      <node ref="P9" pin="4"/>
+      <node ref="R27" pin="2"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="114" name="/D11_SPIN_PWM">
+      <node ref="U5" pin="30"/>
+      <node ref="P9" pin="5"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="115" name="/D10_LIMIT_Y">
+      <node ref="P9" pin="6"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C31" pin="1"/>
+    </net>
+    <net code="116" name="/D9_LIMIT_X">
+      <node ref="P9" pin="7"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C30" pin="1"/>
+    </net>
+    <net code="118" name="/A4_FAULT">
+      <node ref="P1" pin="5"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U5" pin="19"/>
+    </net>
+    <net code="119" name="/A3_COOLANT">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="120" name="/GLBZ">
+      <node ref="R50" pin="1"/>
+      <node ref="R46" pin="2"/>
+      <node ref="Q4" pin="G"/>
+    </net>
+    <net code="121" name="/PHASE_C">
+      <node ref="R49" pin="1"/>
+      <node ref="C46" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="Q6" pin="D"/>
+      <node ref="Q5" pin="S"/>
+      <node ref="P12" pin="3"/>
+    </net>
+    <net code="122" name="/CC">
+      <node ref="C46" pin="1"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="123" name="/GLAZ">
+      <node ref="R41" pin="2"/>
+      <node ref="Q2" pin="G"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="124" name="/GLC">
+      <node ref="U5" pin="2"/>
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="125" name="/GLCZ">
+      <node ref="R51" pin="1"/>
+      <node ref="R47" pin="2"/>
+      <node ref="Q6" pin="G"/>
+    </net>
+    <net code="126" name="Net-(P9-Pad1)">
+      <node ref="P9" pin="1"/>
+    </net>
+    <net code="127" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="128" name="/GLA">
+      <node ref="U5" pin="12"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="129" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="130" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+  </nets>
+</export>

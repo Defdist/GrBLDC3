@@ -1,0 +1,3 @@
+C42 should be near U5 (A4910).
+
+I didn't fix on this revision because the old revision works just fine and there just happens to be another capacitor near U5.  Very little room on this part of PCB.

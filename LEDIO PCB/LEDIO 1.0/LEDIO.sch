@@ -1,0 +1,521 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5D68105A
+P 7450 2350
+F 0 "J1" H 7400 2450 50  0000 L CNN
+F 1 "CONN-2p-24V" H 7150 2150 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 7450 2350 50  0001 C CNN
+F 3 "~" H 7450 2350 50  0001 C CNN
+	1    7450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5D6817F5
+P 6650 5000
+F 0 "J2" H 6650 4800 50  0000 C CNN
+F 1 "CONN-3p-DoorGrBLDC" H 6700 5200 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 6650 5000 50  0001 C CNN
+F 3 "~" H 6650 5000 50  0001 C CNN
+	1    6650 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:AudioJack3_SwitchTR J3
+U 1 1 5D682923
+P 3750 5250
+F 0 "J3" H 3750 5450 50  0000 R CNN
+F 1 "SJ1-3524NG" H 3950 4800 50  0000 R CNN
+F 2 "Audio Connector SJ1-3524NG:CUI_SJ1-3524NG" H 3750 5250 50  0001 C CNN
+F 3 "~" H 3750 5250 50  0001 C CNN
+	1    3750 5250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED:TSAL4400 D6
+U 1 1 5D6847BB
+P 5850 2350
+F 0 "D6" H 5800 2640 50  0000 C CNN
+F 1 "TSAL4400" H 5800 2549 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 5850 2525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/81006/tsal4400.pdf" H 5800 2350 50  0001 C CNN
+	1    5850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:TSAL4400 D5
+U 1 1 5D685AAC
+P 5250 2350
+F 0 "D5" H 5200 2640 50  0000 C CNN
+F 1 "TSAL4400" H 5200 2549 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 5250 2525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/81006/tsal4400.pdf" H 5200 2350 50  0001 C CNN
+	1    5250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:TSAL4400 D4
+U 1 1 5D68657B
+P 4650 2350
+F 0 "D4" H 4600 2640 50  0000 C CNN
+F 1 "TSAL4400" H 4600 2549 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 4650 2525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/81006/tsal4400.pdf" H 4600 2350 50  0001 C CNN
+	1    4650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:TSAL4400 D3
+U 1 1 5D686955
+P 4050 2350
+F 0 "D3" H 4000 2640 50  0000 C CNN
+F 1 "TSAL4400" H 4000 2549 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 4050 2525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/81006/tsal4400.pdf" H 4000 2350 50  0001 C CNN
+	1    4050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:TSAL4400 D2
+U 1 1 5D687031
+P 3450 2350
+F 0 "D2" H 3400 2640 50  0000 C CNN
+F 1 "TSAL4400" H 3400 2549 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 3450 2525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/81006/tsal4400.pdf" H 3400 2350 50  0001 C CNN
+	1    3450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:TSAL4400 D1
+U 1 1 5D6878F7
+P 2800 2350
+F 0 "D1" H 2750 2640 50  0000 C CNN
+F 1 "TSAL4400" H 2750 2549 50  0000 C CNN
+F 2 "Diode_SMD:D_1206_3216Metric" H 2800 2525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/81006/tsal4400.pdf" H 2750 2350 50  0001 C CNN
+	1    2800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5D68BCAD
+P 6550 1650
+F 0 "R1" V 6345 1650 50  0000 C CNN
+F 1 "1k" V 6436 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 1650 50  0001 C CNN
+F 3 "~" H 6550 1650 50  0001 C CNN
+	1    6550 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 5D690412
+P 6550 2000
+F 0 "R2" V 6345 2000 50  0000 C CNN
+F 1 "1k" V 6436 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 2000 50  0001 C CNN
+F 3 "~" H 6550 2000 50  0001 C CNN
+	1    6550 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 5D690BE9
+P 6550 2350
+F 0 "R3" V 6345 2350 50  0000 C CNN
+F 1 "1k" V 6436 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6550 2350 50  0001 C CNN
+F 3 "~" H 6550 2350 50  0001 C CNN
+	1    6550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 2350 6800 2350
+Wire Wire Line
+	6800 2350 6800 2000
+Wire Wire Line
+	6800 2000 6650 2000
+Connection ~ 6800 2350
+Wire Wire Line
+	6800 2350 6650 2350
+Wire Wire Line
+	6800 2000 6800 1650
+Wire Wire Line
+	6800 1650 6650 1650
+Connection ~ 6800 2000
+Wire Wire Line
+	6300 1650 6300 2000
+Wire Wire Line
+	6300 2000 6450 2000
+Wire Wire Line
+	6450 2350 6300 2350
+Wire Wire Line
+	6300 2350 6300 2000
+Connection ~ 6300 2000
+Wire Wire Line
+	6300 2350 5950 2350
+Connection ~ 6300 2350
+Wire Wire Line
+	5650 2350 5350 2350
+Wire Wire Line
+	5050 2350 4750 2350
+Wire Wire Line
+	4450 2350 4150 2350
+Wire Wire Line
+	3850 2350 3550 2350
+Wire Wire Line
+	3250 2350 2900 2350
+Wire Wire Line
+	2600 2350 2450 2350
+Wire Wire Line
+	2450 2350 2450 2450
+Wire Wire Line
+	2450 2450 7250 2450
+Text Label 7000 2350 0    50   ~ 0
+24V
+Text Notes 7500 2500 0    50   ~ 0
+24V\nPGND
+Text Notes 6350 5100 0    50   ~ 0
+5V\nDOOR\nGND
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5D69FFB0
+P 2200 5450
+F 0 "J4" H 2118 5125 50  0000 C CNN
+F 1 "CONN-2p-Probe" H 2118 5216 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 2200 5450 50  0001 C CNN
+F 3 "~" H 2200 5450 50  0001 C CNN
+	1    2200 5450
+	-1   0    0    1   
+$EndComp
+Text Notes 1800 5450 0    50   ~ 0
+PROBE\nSPINDLE
+Wire Wire Line
+	3550 5450 2850 5450
+Wire Wire Line
+	2400 5350 2950 5350
+Wire Wire Line
+	2950 5350 2950 5150
+Wire Wire Line
+	2950 5150 3550 5150
+$Comp
+L power:GND #PWR05
+U 1 1 5D6A2BFB
+P 3300 5300
+F 0 "#PWR05" H 3300 5050 50  0001 C CNN
+F 1 "GND" H 3200 5200 50  0000 C CNN
+F 2 "" H 3300 5300 50  0001 C CNN
+F 3 "" H 3300 5300 50  0001 C CNN
+	1    3300 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5250 3300 5250
+Wire Wire Line
+	3300 5250 3300 5300
+Wire Wire Line
+	3550 5550 2950 5550
+Wire Wire Line
+	2950 5550 2950 5350
+Connection ~ 2950 5350
+$Comp
+L Connector:Barrel_Jack_Switch_MountingPin J5
+U 1 1 5D6A4BBE
+P 3750 6100
+F 0 "J5" H 3800 6400 50  0000 R CNN
+F 1 "PJ-076" H 3700 5900 50  0000 R CNN
+F 2 "Audio Connector SJ1-3524NG:CUI_PJ-076" H 3800 6060 50  0001 C CNN
+F 3 "~" H 3800 6060 50  0001 C CNN
+	1    3750 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5900 2950 5900
+Wire Wire Line
+	2950 5900 2950 5550
+Connection ~ 2950 5550
+Wire Wire Line
+	3450 6100 2950 6100
+Wire Wire Line
+	2950 6100 2950 5900
+Connection ~ 2950 5900
+Wire Wire Line
+	3450 6200 2850 6200
+Wire Wire Line
+	2850 6200 2850 5450
+Connection ~ 2850 5450
+Wire Wire Line
+	2850 5450 2400 5450
+$Comp
+L power:GND #PWR07
+U 1 1 5D6B0667
+P 3300 5950
+F 0 "#PWR07" H 3300 5700 50  0001 C CNN
+F 1 "GND" H 3200 5850 50  0000 C CNN
+F 2 "" H 3300 5950 50  0001 C CNN
+F 3 "" H 3300 5950 50  0001 C CNN
+	1    3300 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 6000 3400 6000
+Wire Wire Line
+	3400 6000 3400 5950
+Wire Wire Line
+	3400 5950 3300 5950
+$Comp
+L Device:R_Small_US R4
+U 1 1 5D6B31C2
+P 2950 4400
+F 0 "R4" H 3018 4446 50  0000 L CNN
+F 1 "1k" H 3018 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2950 4400 50  0001 C CNN
+F 3 "~" H 2950 4400 50  0001 C CNN
+	1    2950 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:TSAL4400 D7
+U 1 1 5D6B3852
+P 2950 4900
+F 0 "D7" V 2946 4822 50  0000 R CNN
+F 1 "LTST-S270KGKT" V 2855 4822 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 2950 5075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/81006/tsal4400.pdf" H 2900 4900 50  0001 C CNN
+	1    2950 4900
+	0    -1   -1   0   
+$EndComp
+Text Notes 4000 5400 0    50   ~ 0
+CABLE:\nSHORT RING TO TIP\nSLEAVE IS PROBE LEAD\n
+Text Notes 4000 6150 0    50   ~ 0
+CABLE:\nPIN IS PROBE LEAD\nDO NOT CONNECT RING
+$Comp
+L power:VCC #PWR01
+U 1 1 5D6B9291
+P 2950 4150
+F 0 "#PWR01" H 2950 4000 50  0001 C CNN
+F 1 "VCC" H 2967 4323 50  0000 C CNN
+F 2 "" H 2950 4150 50  0001 C CNN
+F 3 "" H 2950 4150 50  0001 C CNN
+	1    2950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5150 2950 5100
+Connection ~ 2950 5150
+Wire Wire Line
+	2950 4150 2950 4300
+$Comp
+L power:VCC #PWR03
+U 1 1 5D6BF9F0
+P 6900 4850
+F 0 "#PWR03" H 6900 4700 50  0001 C CNN
+F 1 "VCC" H 6917 5023 50  0000 C CNN
+F 2 "" H 6900 4850 50  0001 C CNN
+F 3 "" H 6900 4850 50  0001 C CNN
+	1    6900 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4900 6900 4900
+Wire Wire Line
+	6900 4900 6900 4850
+$Comp
+L power:GND #PWR04
+U 1 1 5D6C29A6
+P 7100 5250
+F 0 "#PWR04" H 7100 5000 50  0001 C CNN
+F 1 "GND" H 7000 5150 50  0000 C CNN
+F 2 "" H 7100 5250 50  0001 C CNN
+F 3 "" H 7100 5250 50  0001 C CNN
+	1    7100 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 5250 7100 5100
+Wire Wire Line
+	7100 5100 6850 5100
+Wire Wire Line
+	6300 1650 6450 1650
+$Comp
+L power:GND #PWR08
+U 1 1 5D6DEF9B
+P 3750 6450
+F 0 "#PWR08" H 3750 6200 50  0001 C CNN
+F 1 "GND" H 3650 6350 50  0000 C CNN
+F 2 "" H 3750 6450 50  0001 C CNN
+F 3 "" H 3750 6450 50  0001 C CNN
+	1    3750 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6450 3750 6400
+$Comp
+L Sensor_Magnetic:A1101ELHL U1
+U 1 1 5D6E040B
+P 8350 5000
+F 0 "U1" H 8120 5046 50  0000 R CNN
+F 1 "TCS40DPR" H 8120 4955 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8350 4650 50  0001 L CIN
+F 3 "http://www.allegromicro.com/en/Products/Part_Numbers/1101/1101.pdf" H 8350 5650 50  0001 C CNN
+	1    8350 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5D6E2275
+P 8450 5500
+F 0 "#PWR06" H 8450 5250 50  0001 C CNN
+F 1 "GND" H 8350 5400 50  0000 C CNN
+F 2 "" H 8450 5500 50  0001 C CNN
+F 3 "" H 8450 5500 50  0001 C CNN
+	1    8450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5D6E2820
+P 8450 4500
+F 0 "#PWR02" H 8450 4350 50  0001 C CNN
+F 1 "VCC" H 8467 4673 50  0000 C CNN
+F 2 "" H 8450 4500 50  0001 C CNN
+F 3 "" H 8450 4500 50  0001 C CNN
+	1    8450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5D6E34F5
+P 9150 5000
+F 0 "C1" H 9242 5046 50  0000 L CNN
+F 1 "220n" H 9242 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9150 5000 50  0001 C CNN
+F 3 "~" H 9150 5000 50  0001 C CNN
+	1    9150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5D6E3EEE
+P 9500 5000
+F 0 "C2" H 9592 5046 50  0000 L CNN
+F 1 "220n" H 9592 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9500 5000 50  0001 C CNN
+F 3 "~" H 9500 5000 50  0001 C CNN
+	1    9500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4500 8450 4550
+Wire Wire Line
+	8450 4550 9150 4550
+Wire Wire Line
+	9500 4550 9500 4900
+Connection ~ 8450 4550
+Wire Wire Line
+	8450 4550 8450 4600
+Wire Wire Line
+	9150 4900 9150 4550
+Connection ~ 9150 4550
+Wire Wire Line
+	9150 4550 9500 4550
+Wire Wire Line
+	9150 5100 9150 5450
+Wire Wire Line
+	9150 5450 8450 5450
+Wire Wire Line
+	8450 5450 8450 5500
+Wire Wire Line
+	8450 5450 8450 5400
+Connection ~ 8450 5450
+Wire Wire Line
+	9500 5100 9500 5450
+Wire Wire Line
+	9500 5450 9150 5450
+Connection ~ 9150 5450
+Wire Wire Line
+	6850 5000 8050 5000
+Text Notes 8600 5250 0    50   ~ 0
+MAGNET\nSENSOR
+Text Notes 8100 7650 0    50   ~ 0
+2019AUG29
+Text Notes 7350 7500 0    50   ~ 0
+LED/IO BOARD
+Text Notes 7100 6900 0    50   ~ 0
+OPEN SOURCE - GNU GPLv3\nINFORMATION WANTS TO BE FREE!
+Text Notes 7400 5200 0    50   ~ 0
+LOW WHEN CLOSED\nHIGH WHEN OPEN
+Text Label 7250 5000 0    50   ~ 0
+DOOR
+Text Label 2450 5350 0    50   ~ 0
+PROBE
+Text Label 2450 5450 0    50   ~ 0
+SPINDLE
+Wire Wire Line
+	2950 4500 2950 4800
+Text Label 7000 2450 0    50   ~ 0
+PGND
+Text Label 5950 2350 0    50   ~ 0
+LED_18V
+Text Label 5350 2350 0    50   ~ 0
+LED_15V
+Text Label 4750 2350 0    50   ~ 0
+LED_12V
+Text Label 4150 2350 0    50   ~ 0
+LED_09V
+Text Label 3550 2350 0    50   ~ 0
+LED_06V
+Text Label 2900 2350 0    50   ~ 0
+LED_03V
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D748614
+P 9450 1750
+F 0 "H1" H 9550 1796 50  0000 L CNN
+F 1 "MountingHole" H 9550 1705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9450 1750 50  0001 C CNN
+F 3 "~" H 9450 1750 50  0001 C CNN
+	1    9450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D748F1F
+P 9450 2000
+F 0 "H2" H 9550 2046 50  0000 L CNN
+F 1 "MountingHole" H 9550 1955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9450 2000 50  0001 C CNN
+F 3 "~" H 9450 2000 50  0001 C CNN
+	1    9450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D749563
+P 9450 2250
+F 0 "H3" H 9550 2296 50  0000 L CNN
+F 1 "MountingHole" H 9550 2205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 9450 2250 50  0001 C CNN
+F 3 "~" H 9450 2250 50  0001 C CNN
+	1    9450 2250
+	1    0    0    -1  
+$EndComp
+Text Label 2950 4650 0    50   ~ 0
+PROBE_LED
+$EndSCHEMATC

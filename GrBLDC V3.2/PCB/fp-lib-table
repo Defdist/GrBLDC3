@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "Custom Footprints")(type KiCad)(uri "$(KIPRJMOD)/Custom Footprints")(options "")(descr ""))
+  (lib (name A3938)(type KiCad)(uri "$(KIPRJMOD)/Custom Footprints")(options "")(descr ""))
+  (lib (name ILTC)(type KiCad)(uri "$(KIPRJMOD)/Custom Footprints")(options "")(descr ""))
+)

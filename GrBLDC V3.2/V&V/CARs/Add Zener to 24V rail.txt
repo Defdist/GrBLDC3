@@ -1,0 +1,5 @@
+Add a zener diode to the 24 volt rail, which we run at 26 volts.  Contenders:
+SMZJ3800B
+1SMA5936BT3G
+1N5362B
+1N5363B

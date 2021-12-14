@@ -1,0 +1,2 @@
+DC Power jack connector PTH incorrect... jack leads don't fit through (round) hole.
+Headphone jack connector PTH incorrect... jack leads don't fit through (round) hole.
